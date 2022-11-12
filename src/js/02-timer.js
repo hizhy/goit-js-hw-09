@@ -40,7 +40,7 @@ function onStartClick() {
     { once: true }
   );
   const intervalId = setInterval(() => {
-    const ms = dateToStart.selectedDates[0].getTime() - Date.now;
+    const ms = dateToStart.selectedDates[0].getTime() - Date.now();
     if (
       dateToStart.selectedDates[0].getTime() / 1000 ===
       parseInt(Date.now() / 1000)

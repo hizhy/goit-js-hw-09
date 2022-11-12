@@ -16,3 +16,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-family: 'Franklin Gothic Medium';
+  font-size: 40px;
+  color: crimson;
+}
